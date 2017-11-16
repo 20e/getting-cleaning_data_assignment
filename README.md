@@ -3,6 +3,7 @@
 This data set is based on the experiments carried out by Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto, edited by 20e Jiang for the peer-assignment of the coursera course —— getting and cleaning data.
 
 @@ Environment
+
 Please place the "run_analysis.R" in the "UCI HAR Dataset" directory which also contains "test" file, "train" file and some txt files. Then, source this R file, you will get the same dataset as you can see in "20e_Totaldata_tidy.csv" or "20e_Dataset_tidy.txt".
 
 @@ Data
@@ -14,8 +15,11 @@ Please place the "run_analysis.R" in the "UCI HAR Dataset" directory which also 
 @All the datas are grouped by subjects and then activity.
 
 @@ Name
-The "-" and "()" are removed from the names of the dataset.
-The "t"(which represents time-domain) and "f"(which represents "frequence-domain) are all substituted by "time" and "freq"
+
+@The "-" and "()" are removed from the names of the dataset.
+
+@The "t"(which represents time-domain) and "f"(which represents "frequence-domain) are all substituted by "time" and "freq"
 
 @@ Save the result
+
 "run_analysis.R" will automatically save this dataset as an csv file in the working directory.
